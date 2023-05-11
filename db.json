@@ -1,14 +1,14 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "name": "Ali Banad",
-            "age": 22
-        },
-        {
-            "id": 2,
-            "name": "Aziz",
-            "age": 16
-        }
-    ]
+  "posts": [
+    {
+      "username": "sasa",
+      "email": "sasas",
+      "id": 1
+    },
+    {
+      "username": "sas",
+      "email": "",
+      "id": 2
+    }
+  ]
 }
