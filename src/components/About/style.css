@@ -1,7 +1,54 @@
-header{
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+header {
     margin-top: 50px;
+    position: relative;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
     text-align: center;
 }
-h1{
-    text-align: center;
+
+.btnDiv {
+    display: flex;
+}
+
+#iconca {
+    color: black;
+    font-size: 26px;
+}
+
+#iconca:hover {
+    cursor: pointer;
+    color: rgb(0, 255, 0);
+}
+
+#ico {
+    color: black;
+    font-size: 26px;
+}
+
+#ico:hover {
+    cursor: pointer;
+    color: red !important;
+}
+
+.editbtn {
+    background-color: green;
+    left: 220px;
+    margin-top: -30px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.show {
+    position: absolute !important;
+    top: 0 !important;
+    /* transform: scale(0); */
 }
